@@ -1,0 +1,27 @@
+{
+    "name": "beliveN",
+    "symbol": "b",
+    "description": "The Rug",
+    "seller_fee_basis_points": 500,
+    "image": "https://bafybeihm4tnws4voq3eev6f6l4ob4qejthfmoyspgvwomckg7x5y7zmpcu.ipfs.nftstorage.link/generug.png",
+    "external_url": "",
+    "edition": 0,
+    "attributes": [
+     
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "https://bafybeihm4tnws4voq3eev6f6l4ob4qejthfmoyspgvwomckg7x5y7zmpcu.ipfs.nftstorage.link/generug.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "wba953abpL8wMfmX3WEZLd5UauUJJEYujxLar7roT5r",
+          "share": 100
+        }
+      ]
+    }
+  }

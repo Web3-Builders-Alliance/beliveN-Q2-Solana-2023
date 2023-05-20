@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "resolveJsonModule": true,
+      "esModuleInterop": true
+     /*  "paths": {
+        "prereqpath": ["./WBA-PreReqs/ts/programs/wba_prereq"]
+      } */
+    }
+
+
+  }
