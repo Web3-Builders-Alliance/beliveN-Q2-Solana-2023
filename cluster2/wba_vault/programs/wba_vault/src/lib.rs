@@ -212,6 +212,6 @@ pub struct WithdrawSpl<'info> {
      #[account(mut)]
      pub owner: Signer<'info>,
      #[account(mut, has_one = owner, close =owner)]
-     pub close_vault_state: Account <'info, Vault>,
+     pub vault_state: Account <'info, Vault>,
      pub system_program : Program<'info, System>
  }
