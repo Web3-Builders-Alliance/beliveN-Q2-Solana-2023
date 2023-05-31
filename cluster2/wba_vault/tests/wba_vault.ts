@@ -14,13 +14,13 @@ import {
   getOrCreateAssociatedTokenAccount,
   mintTo,
 } from '@solana/spl-token';
-import { parseMintAccount } from '@metaplex-foundation/js';
+import { parseMintAccount, Mint } from '@metaplex-foundation/js';
 
 describe('wbavault', async () => {
   anchor.AnchorProvider.env().opts.commitment = 'confirmed';
   anchor.setProvider(anchor.AnchorProvider.env());
   const provider = anchor.getProvider();
-  const programId = new anchor.web3.PublicKey("BaRtR9LkkzMWysBndwLf1wwWyHTHCYEGiPPa2ooXmodW");
+  const programId = new anchor.web3.PublicKey("9EHZmEiZzYyd5sJFnQ8V6bMWJgV5NUgS8oVK2tXPoY3w");
   const program = anchor.workspace.WbaVault as Program<WbaVault>;
 
   // Generate new keypair
@@ -208,7 +208,7 @@ describe('wbavault', async () => {
     );
 
     const txhash = await program.methods
-      .withdrawSpl(new BN(0.1 * LAMPORTS_PER_SOL))
+      .withdrawspl(new BN(0.1 * LAMPORTS_PER_SOL))
       .accounts({
         owner: keypair.publicKey,
         vaultState: vaultState.publicKey,
