@@ -1,1 +1,1 @@
-BaRtR9LkkzMWysBndwLf1wwWyHTHCYEGiPPa2ooXmodW  WBA ESCROW
+anchor_escrow_2023 = "3tWcxiouPwVkF8eiWWFPbxV8vayMVaR8BYMRFcz2zFK3"
